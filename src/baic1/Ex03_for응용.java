@@ -48,6 +48,40 @@ public class Ex03_for응용 {
 		System.out.println();
 		}//for
 	
+	for(int i = 0; i < 26; i++) {
+		for(int j = 0; j < i; j++) {
+		System.out.print(" ");
+		}//for
+		for(char a = (char) ('A'+i); a <= 'Z'; a++) {
+		System.out.print(a);
+		}//for
+		System.out.println();
+		}//for
+	
+	for(int i = 0; i < 26; i++) {
+		for (int j = 0; j<i;j++) {
+		System.out.print(" ");
+		}
+		for (char a = (char)('A'+i);a <='Z'; a++) {
+		System.out.print(a);
+		}
+		System.out.println();
+	    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	}
 
